@@ -274,12 +274,26 @@ export type ExperienceItem = {
 };
 
 export const experience: ExperienceItem[] = [
+  
+  {
+    company: 'Cornerstone OnDemand',
+    title: 'Senior Technical Writer',
+    period: 'Februray 2024 - Present',
+    responsibilities: [
+      'Lead end-to-end documentation for Saba quarterly product releases, ensuring comprehensive, accurate, and timely delivery of release documentation.',
+      'Collaborate with the technical writing team to develop and standardize documentation practices, improving content consistency and quality control.',
+      'Partner with the development team to support the design and implementation of an in-house documentation generation tool, contributing to documentation process automation.',
+      'Oversee the renewal and maintenance of documentation-related software licenses to ensure uninterrupted access to essential authoring and publishing tools.',
+    ],
+  },
+
   {
     company: 'Avaya',
     title: 'Information Engineer I',
-    period: 'March 2021 – Present',
+    period: 'March 2021 – February 2024',
     responsibilities: [
       'Create and maintain product documentation, including user manuals, release notes, video scripts, and service information.',
+      'Partnered with localization teams to streamine translation workflows, provide word count for the release, improve accuracy and reduce overhead.
       'Collaborate with subject-matter experts, development engineers, test engineers, and product managers.',
       'Document product features, configuration procedures, conceptual overviews, troubleshooting workflows, and planned maintenance information.',
       'Work with DITA, Confluence, Jira, test cases, and product interfaces.',
@@ -290,10 +304,9 @@ export const experience: ExperienceItem[] = [
     title: 'Senior Technical Writer',
     period: 'January 2018 – February 2021',
     responsibilities: [
-      'Developed and maintained technical product documentation.',
+      'Developed and maintained technical a comprehensive Book feature matric to track feature coverage.',
       'Collaborated with engineering, testing, product, and support teams.',
       'Facilitated Agile ceremonies, including daily stand-ups, sprint planning, retrospectives, demonstrations, and reviews.',
-      'Coordinated a cross-functional team of more than 12 members.',
       'Supported backlog management, stakeholder communication, and resolution of delivery dependencies.',
     ],
   },
