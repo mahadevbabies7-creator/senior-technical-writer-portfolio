@@ -30,7 +30,7 @@ export function Portfolio() {
       id="portfolio"
       eyebrow="Selected Work"
       heading="Portfolio"
-      subheading="Explore my technical documentation, online help, user guides, release notes, and instructional content. View available work samples or explore individual case studies."
+      subheading="The following section highlights a selection of online help documentation and associated products I have contributed to throughout my professional career, showcasing my experience in developing clear, structured, and user-focused technical content."
     >
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {portfolio.map((item, i) => {
