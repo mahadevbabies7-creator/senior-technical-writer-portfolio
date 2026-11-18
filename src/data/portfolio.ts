@@ -32,8 +32,9 @@ export const profile = {
   expertise: [
     'Technical Documentation',
     'DITA-XML',
-    'Information Engineering',
-    'Agile Collaboration',
+    'Scrum Master',
+    'API Documentation',
+    'Video Content',
   ],
   location: 'Pune, Maharashtra, India',
   highlights: [
