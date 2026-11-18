@@ -61,7 +61,6 @@ export const navLinks: NavLink[] = [
 
 export const resumeReady = false;
 export const resumeUrl = '/resume/Suntul_Mahadik_Resume.pdf';
-
 export const about = {
   heading: 'Making Technical Information Clear, Useful, and Accessible.',
   paragraphs: [
