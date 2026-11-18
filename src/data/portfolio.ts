@@ -103,7 +103,7 @@ export const expertise: ExpertiseItem[] = [
   {
     title: 'API & Developer Documentation',
     description:
-      'API documentation, technical concepts, configuration information, and developer-oriented content.',
+      'API documentation, configuration information, and developer-oriented content.',
     icon: Code2,
   },
   {
@@ -121,7 +121,7 @@ export const expertise: ExpertiseItem[] = [
   {
     title: 'Agile & Cross-Functional Collaboration',
     description:
-      'Scrum, Kanban, sprint planning, retrospectives, stakeholder coordination, backlog support, and process improvement.',
+      'Scrum, sprint planning, retrospectives, stakeholder coordination, backlog support, and process improvement.',
     icon: Users,
   },
 ];
@@ -134,23 +134,27 @@ export type ToolCategory = {
 export const tools: ToolCategory[] = [
   {
     category: 'Structured Authoring',
-    tools: ['DITA-XML', 'Oxygen XML Editor', 'Arbortext Editor', 'Adobe FrameMaker', 'Adobe RoboHelp'],
+    tools: ['DITA-XML', 'Oxygen XML Editor', 'Arbortext Editor', 'Adobe FrameMaker', 'Adobe RoboHelp', 'HTML/CSS', 'Tridion Docs'],
   },
   {
     category: 'Project Collaboration',
-    tools: ['Jira', 'Confluence', 'SharePoint'],
+    tools: ['Jira', 'Confluence', 'Wiki', 'SharePoint', 'Git', 'GitHub' ],
   },
   {
     category: 'Visual & Multimedia',
-    tools: ['Adobe Photoshop', 'Adobe Premiere Pro', 'Figma', 'Microsoft Visio', 'Snagit', 'PowToon'],
+    tools: ['Adobe Photoshop', 'Figma', 'Microsoft Visio', 'Snagit', 'PowToon'],
   },
   {
     category: 'Publishing & Productivity',
-    tools: ['WordPress', 'Microsoft Office'],
+    tools: ['WordPress', 'Microsoft Office', 'Git Bash'],
+  },
+  {
+    category: 'AI-Assisted Documentation',
+    tools: ['ChatGPT', 'Claude', 'Github Copilot', 'Prompt Engineering'],
   },
   {
     category: 'Methodologies',
-    tools: ['Agile', 'Scrum', 'Kanban', 'SDLC', 'DDLC'],
+    tools: ['Agile', 'Scrum', 'Kanban', 'SDLC', 'DDLC', 'Docs-as-Code'],
   },
 ];
 
