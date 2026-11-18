@@ -407,8 +407,8 @@ export const contact = {
   supporting:
     'Interested in technical documentation, information engineering, or opportunities to collaborate? I\'d be happy to connect.',
   location: 'Pune, Maharashtra, India',
-  email: '',
-  linkedin: '',
+  email: 'suntul777@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/suntulmahadik/',
 };
 
 export const contactIcons = { MapPin, Mail, Linkedin };
