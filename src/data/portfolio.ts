@@ -162,6 +162,7 @@ export type PortfolioItem = {
   description: string;
   tags: string[];
   icon: LucideIcon;
+  sampleUrl?: string;
   caseStudy: {
     overview: string;
     audience: string;
@@ -181,6 +182,7 @@ export const portfolio: PortfolioItem[] = [
       'Developer-facing reference covering endpoints, parameters, request and response examples, and integration guidance.',
     tags: ['API Docs', 'Developer Content', 'Reference'],
     icon: Code2,
+    sampleUrl: '',
     caseStudy: {
       overview: '',
       audience: '',
@@ -198,6 +200,7 @@ export const portfolio: PortfolioItem[] = [
       'Comprehensive documentation helping end users install, configure, and operate a product with task-based instructions.',
     tags: ['User Guide', 'Task-Based', 'DITA-XML'],
     icon: FileText,
+    sampleUrl: '',
     caseStudy: {
       overview: '',
       audience: '',
@@ -215,6 +218,7 @@ export const portfolio: PortfolioItem[] = [
       'Per-release summaries of new features, enhancements, fixes, and known issues for customers and internal teams.',
     tags: ['Release Notes', 'Change Logs', 'Communication'],
     icon: BookOpen,
+    sampleUrl: '',
     caseStudy: {
       overview: '',
       audience: '',
@@ -232,6 +236,7 @@ export const portfolio: PortfolioItem[] = [
       'Jd Omni is India’s leading eCommerce platform for growing businesses. Powerful technology makes it easy for everyone to get online with a stunning, professional, and functional web presence.',
     tags: ['Configuration', 'Online Help', 'Procedures'],
     icon: AlertTriangle,
+    sampleUrl: 'https://www.jdomni.com/support/getting-started',
     caseStudy: {
       overview: '',
       audience: '',
@@ -249,6 +254,7 @@ export const portfolio: PortfolioItem[] = [
       'Narration and on-screen action scripts for short product demonstrations and walkthroughs that complement written docs.',
     tags: ['Video Script', 'Multimedia', 'UX Writing'],
     icon: PlayCircle,
+    sampleUrl: '',
     caseStudy: {
       overview: '',
       audience: '',
