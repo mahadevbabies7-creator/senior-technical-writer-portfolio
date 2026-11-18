@@ -227,10 +227,10 @@ export const portfolio: PortfolioItem[] = [
     },
   },
   {
-    type: 'Troubleshooting Guide',
+    type: 'Jd Omni Help Center (JustDial)',
     description:
-      'Diagnostic procedures and resolution workflows that help users identify and resolve common and edge-case issues.',
-    tags: ['Troubleshooting', 'Online Help', 'Procedures'],
+      'Jd Omni is India’s leading eCommerce platform for growing businesses. Powerful technology makes it easy for everyone to get online with a stunning, professional, and functional web presence.',
+    tags: ['Configuration', 'Online Help', 'Procedures'],
     icon: AlertTriangle,
     caseStudy: {
       overview: '',
@@ -239,7 +239,7 @@ export const portfolio: PortfolioItem[] = [
       responsibilities: '',
       tools: '',
       approach: '',
-      sample: '',
+      sample: 'https://www.jdomni.com/support/getting-started',
       outcome: '',
     },
   },
