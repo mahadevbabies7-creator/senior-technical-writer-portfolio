@@ -216,7 +216,7 @@ export const portfolio: PortfolioItem[] = [
     type: 'Avaya Workplace Client Notes',
     description:
       'Avaya Workplace Client is a soft phone application that provides access to Unified Communications (UC) and Over the Top (OTT) services. You can access Avaya Workplace Client on varios platforms.',
-    tags: ['Release Notes', 'Change Logs', 'Communication'],
+    tags: ['User and Admin guide', 'Contact Center', 'Communication'],
     icon: BookOpen,
     sampleUrl: 'https://documentation.avaya.com/en-us/home/bundle/avaya-communicator/avaya_ix_workplace_client_overview_specification_a/avaya-workplace-client-overview.html',
     caseStudy: {
@@ -250,7 +250,7 @@ export const portfolio: PortfolioItem[] = [
     type: 'Avaya Device Enrollment Services to Manage Endpoints',
     description:
       'Device Enrollment Services provides a mechanism for Avaya endpoints to be securely authenticated and redirected to the file server. By simplifying and automating the discovery of the provisioning server, Device Enrollment Services reduces the costs involved in deploying an out-of-the-box device..',
-    tags: ['Video Script', 'Multimedia', 'UX Writing'],
+    tags: ['Endpoints', 'Provisioning', 'DES'],
     icon: PlayCircle,
     sampleUrl: 'https://documentation.avaya.com/en-us/home/bundle/device-enrollment-service/usingavayadeviceenrollmentservicestomanageendpoint/device-enrollment-services-overview.html',
     caseStudy: {
