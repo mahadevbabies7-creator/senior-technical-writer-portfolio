@@ -213,12 +213,12 @@ export const portfolio: PortfolioItem[] = [
     },
   },
   {
-    type: 'Release Notes',
+    type: 'Avaya Workplace Client Notes',
     description:
-      'Per-release summaries of new features, enhancements, fixes, and known issues for customers and internal teams.',
+      'Avaya Workplace Client is a soft phone application that provides access to Unified Communications (UC) and Over the Top (OTT) services. You can access Avaya Workplace Client on varios platforms.',
     tags: ['Release Notes', 'Change Logs', 'Communication'],
     icon: BookOpen,
-    sampleUrl: '',
+    sampleUrl: 'https://documentation.avaya.com/en-us/home/bundle/avaya-communicator/avaya_ix_workplace_client_overview_specification_a/avaya-workplace-client-overview.html',
     caseStudy: {
       overview: '',
       audience: '',
@@ -247,12 +247,12 @@ export const portfolio: PortfolioItem[] = [
       outcome: '',
     },
   {
-    type: 'Instructional Video Script',
+    type: 'Avaya Device Enrollment Services to Manage Endpoints',
     description:
-      'Narration and on-screen action scripts for short product demonstrations and walkthroughs that complement written docs.',
+      'Device Enrollment Services provides a mechanism for Avaya endpoints to be securely authenticated and redirected to the file server. By simplifying and automating the discovery of the provisioning server, Device Enrollment Services reduces the costs involved in deploying an out-of-the-box device..',
     tags: ['Video Script', 'Multimedia', 'UX Writing'],
     icon: PlayCircle,
-    sampleUrl: '',
+    sampleUrl: 'https://documentation.avaya.com/en-us/home/bundle/device-enrollment-service/usingavayadeviceenrollmentservicestomanageendpoint/device-enrollment-services-overview.html',
     caseStudy: {
       overview: '',
       audience: '',
