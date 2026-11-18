@@ -406,7 +406,7 @@ export type AwardItem = {
 export const awards: AwardItem[] = [
   {
     title: 'Cornerstone Achievement Award',
-    context: 'Cornerstine — Received twice (2025 and 2026)',
+    context: 'Cornerstone — Received twice (2025 and 2026)',
     description: 'Recognition for teamwork and commitment.',
     icon: Trophy,
   },
