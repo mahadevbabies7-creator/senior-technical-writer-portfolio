@@ -246,7 +246,6 @@ export const portfolio: PortfolioItem[] = [
       sample: 'https://www.jdomni.com/support/getting-started',
       outcome: '',
     },
-  },
   {
     type: 'Instructional Video Script',
     description:
