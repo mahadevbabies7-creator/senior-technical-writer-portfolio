@@ -33,6 +33,7 @@ export const profile = {
     'Technical Documentation',
     'DITA-XML',
     'Scrum Master',
+    'Docs-as-Code',
     'API Documentation',
     'Video Content',
   ],
@@ -73,7 +74,7 @@ export const about = {
   ],
   summary: [
     { label: 'Core Focus', value: 'Technical Documentation & Information Engineering' },
-    { label: 'Authoring', value: 'DITA-XML, Structured Authoring, Modular Content' },
+    { label: 'Authoring', value: 'DITA-XML, Structured Authoring, UX Writing' },
     { label: 'Agile Experience', value: '2 years as Scrum Master, cross-team coordination' },
     { label: 'Collaboration', value: 'SMEs, developers, QA, product, and stakeholders' },
     { label: 'Content Types', value: 'User guides, API docs, release notes, online help, video scripts' },
