@@ -233,7 +233,7 @@ export const portfolio: PortfolioItem[] = [
   {
     type: 'Jd Omni Help Center (JustDial)',
     description:
-      'Jd Omni is India’s leading eCommerce platform for growing businesses. Powerful technology makes it easy for everyone to get online with a stunning, professional, and functional web presence. This website builder enables you to create amazing, feature-rich websites that are perfectly suitable for desktop, tablet, and mobile. It’s time to build your website! We will now go through the basics of how to set up your store, add products, set up payment options, and how to customize your website.',
+      'Jd Omni is India’s leading eCommerce platform for growing businesses. Powerful technology makes it easy for everyone to get online with a stunning, professional, and functional web presence. This website builder enables you to create amazing, feature-rich websites that are perfectly suitable for desktop, tablet, and mobile. Thid help will take you through the basics of how to set up your store, add products, set up payment options, and how to customize your website.',
     tags: ['Configuration', 'Online Help', 'Procedures'],
     icon: AlertTriangle,
     sampleUrl: 'https://www.jdomni.com/support/getting-started',
