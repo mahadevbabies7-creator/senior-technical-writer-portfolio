@@ -177,12 +177,12 @@ export type PortfolioItem = {
 
 export const portfolio: PortfolioItem[] = [
   {
-    type: 'API Documentation',
+    type: 'Saba Documentation',
     description:
-      'Developer-facing reference covering endpoints, parameters, request and response examples, and integration guidance.',
-    tags: ['API Docs', 'Developer Content', 'Reference'],
+      'Cornerstone Saba’s customizable suite helps companies thrive in an ever-changing world. This platform helps employees, customers, and partners complete important training, build skills, stay agile, and work smarter..',
+    tags: ['Release Notes', 'Change Logs', 'Whats New'],
     icon: Code2,
-    sampleUrl: '',
+    sampleUrl: 'https://help.sabacloud.com/sabacloud/index.html',
     caseStudy: {
       overview: '',
       audience: '',
