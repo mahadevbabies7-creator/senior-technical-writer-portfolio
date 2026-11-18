@@ -195,12 +195,12 @@ export const portfolio: PortfolioItem[] = [
     },
   },
   {
-    type: 'User Guide',
+    type: 'Cornerstone Help Center',
     description:
       'Comprehensive documentation helping end users install, configure, and operate a product with task-based instructions.',
-    tags: ['User Guide', 'Task-Based', 'DITA-XML'],
+    tags: ['Single Architecture', 'Integration product', 'Cornerstone experience'],
     icon: FileText,
-    sampleUrl: '',
+    sampleUrl: 'https://help.csod.com/helpcenter/',
     caseStudy: {
       overview: '',
       audience: '',
