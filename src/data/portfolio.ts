@@ -266,17 +266,21 @@ export const portfolio: PortfolioItem[] = [
   },
 ];
 
+
 export type ExperienceItem = {
   company: string;
   title: string;
   period: string;
+  logo?: string;
   responsibilities: string[];
 };
+
 
 export const experience: ExperienceItem[] = [
   
   {
     company: 'Cornerstone OnDemand',
+     logo: '/logos/cornerstone.png',
     title: 'Senior Technical Writer',
     period: 'Februray 2024 - Present',
     responsibilities: [
@@ -289,6 +293,7 @@ export const experience: ExperienceItem[] = [
 
   {
     company: 'Avaya',
+    logo: '/logos/avaya.png',
     title: 'Information Engineer I',
     period: 'March 2021 – February 2024',
     
@@ -303,6 +308,7 @@ responsibilities: [
   },
   {
     company: 'HCL Technologies (Client: Avaya)',
+    logo: '/logos/hcl.png',
     title: 'Senior Technical Writer',
     period: 'January 2018 – February 2021',
     responsibilities: [
@@ -314,6 +320,7 @@ responsibilities: [
   },
   {
     company: 'Justdial',
+    logo: '/logos/justdial.png',
     title: 'Senior Technical Writer',
     period: 'November 2016 – January 2018',
     responsibilities: [
