@@ -309,16 +309,7 @@ export const experience: ExperienceItem[] = [
       'Supported daily stand-ups and team coordination.',
     ],
   },
-  {
-    company: 'Central India NDT Engineer Pvt. Ltd.',
-    title: 'NDT Engineer',
-    period: 'June 2016 – October 2016',
-    responsibilities: [
-      'Created and maintained engineering documentation, workshop procedures, and safety data sheets.',
-      'Prepared Maintenance Organisation Exposition documentation.',
-      'Coordinated with stakeholders and developed training presentations.',
-    ],
-  },
+
 ];
 
 export type Credential = {
