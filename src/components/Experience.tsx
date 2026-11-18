@@ -15,6 +15,7 @@ function monogram(name: string) {
   return letters.join('') || '•';
 }
 
+
 function CompanyLogo({
   company,
   logo,
@@ -26,19 +27,19 @@ function CompanyLogo({
 
   return (
     <span
-      className="flex h-12 w-12 flex-none items-center justify-center overflow-hidden rounded-xl border border-navy-100 bg-white shadow-sm"
+      className="flex h-20 w-20 flex-none items-center justify-center overflow-hidden rounded-xl border border-navy-100 bg-white p-1 shadow-sm"
     >
       {logo && !imageError ? (
         <img
           src={logo}
           alt={`${company} logo`}
-          className="h-full w-full object-contain p-1"
+          className="h-full w-full object-contain"
           loading="lazy"
           onError={() => setImageError(true)}
         />
       ) : (
         <span
-          className="flex h-full w-full items-center justify-center bg-navy-900 text-sm font-bold text-teal-400"
+          className="flex h-full w-full items-center justify-center rounded-lg bg-navy-900 text-lg font-bold text-teal-400"
           aria-label={company}
         >
           {monogram(company)}
@@ -47,6 +48,7 @@ function CompanyLogo({
     </span>
   );
 }
+
 
 export function Experience() {
   return (
