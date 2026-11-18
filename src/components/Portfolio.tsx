@@ -49,18 +49,7 @@ export function Portfolio() {
                     />
                   </span>
 
-                  <button
-                    type="button"
-                    onClick={() => open(item)}
-                    className="rounded-lg p-2 text-gray-400 transition-colors hover:bg-teal-50 hover:text-teal-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-                    aria-label={`Open case study for ${item.type}`}
-                    title="View Case Study"
-                  >
-                    <ArrowUpRight
-                      className="h-5 w-5"
-                      aria-hidden="true"
-                    />
-                  </button>
+               
                 </div>
 
                 {/* Portfolio title */}
@@ -112,17 +101,7 @@ export function Portfolio() {
                     </span>
                   )}
 
-                  <button
-                    type="button"
-                    onClick={() => open(item)}
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-teal-700 transition-colors hover:text-navy-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-                  >
-                    View Case Study
-                    <ArrowUpRight
-                      className="h-3.5 w-3.5"
-                      aria-hidden="true"
-                    />
-                  </button>
+                 
 
                 </div>
               </div>
