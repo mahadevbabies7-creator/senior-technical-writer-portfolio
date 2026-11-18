@@ -291,13 +291,15 @@ export const experience: ExperienceItem[] = [
     company: 'Avaya',
     title: 'Information Engineer I',
     period: 'March 2021 – February 2024',
-    responsibilities: [
-      'Create and maintain product documentation, including user manuals, release notes, video scripts, and service information.',
-      'Partnered with localization teams to streamine translation workflows, provide word count for the release, improve accuracy and reduce overhead.
-      'Collaborate with subject-matter experts, development engineers, test engineers, and product managers.',
-      'Document product features, configuration procedures, conceptual overviews, troubleshooting workflows, and planned maintenance information.',
-      'Work with DITA, Confluence, Jira, test cases, and product interfaces.',
-    ],
+    
+responsibilities: [
+  'Create and maintain product documentation, including user manuals, release notes, video scripts, and service information.',
+  'Ensure documentation is accurate and complete for each release, improving content quality and reducing documentation overhead.',
+  'Collaborate with subject-matter experts, development engineers, test engineers, and product managers.',
+  'Document product features, configuration procedures, conceptual overviews, troubleshooting workflows, and planned maintenance information.',
+  'Work with DITA, Confluence, Jira, test cases, and product interfaces.',
+],
+
   },
   {
     company: 'HCL Technologies (Client: Avaya)',
